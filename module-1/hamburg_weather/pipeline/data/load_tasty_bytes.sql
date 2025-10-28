@@ -82,7 +82,8 @@ CREATE OR ALTER TABLE {{env}}_tasty_bytes.raw_pos.location
    city VARCHAR(16777216),
    region VARCHAR(16777216),
    iso_country_code VARCHAR(16777216),
-   country VARCHAR(16777216)
+   country VARCHAR(16777216),
+   city_id NUMBER(19,0)
 );
 
 
